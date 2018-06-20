@@ -1,24 +1,24 @@
 {
-  "name": "gulp-awspublish",
-  "version": "3.3.3",
-  "description": "gulp plugin to publish files to amazon s3",
+  "name": "seedlink-gulp-awspublish",
+  "version": "1.0.0",
+  "description": "Modified from https://github.com/pgherveou/gulp-awspublish",
   "keywords": [
     "gulpplugin",
     "aws",
     "s3",
     "publish"
   ],
-  "homepage": "https://github.com/pgherveou/gulp-awspublish",
-  "bugs": "https://github.com/pgherveou/gulp-awspublish/issues",
+  "homepage": "https://github.com/devops2seedlink/gulp-awspublish",
+  "bugs": "https://github.com/devops2seedlink/gulp-awspublish/issues",
   "author": {
-    "name": "PG Herveou",
-    "email": "pg@jogabo.com",
-    "url": "https://github.com/pgherveou"
+    "name": "devops2seedlink",
+    "email": "devops@seedlinktech.com",
+    "url": "https://github.com/devops2seedlink"
   },
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pgherveou/gulp-awspublish.git"
+    "url": "git://github.com/devops2seedlink/gulp-awspublish.git"
   },
   "scripts": {
     "lint": "prettier --single-quote --write **/*.js && eslint --fix .",
